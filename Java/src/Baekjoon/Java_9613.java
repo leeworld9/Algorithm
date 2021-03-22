@@ -24,7 +24,6 @@ class Java_9613
 
 	public static void main(String[] args)
 	{
-
 		Scanner scan = new Scanner(System.in);
 		int line = scan.nextInt();
 		//버퍼 지우기
@@ -39,6 +38,7 @@ class Java_9613
 			Collections.sort(list, new Descending());
 			System.out.println(calc_gcd(list));
 		}
+		scan.close();
 	}
 
 	public static long calc_gcd(ArrayList list) {
