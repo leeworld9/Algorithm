@@ -48,6 +48,6 @@ public class Java_2609
 
 		System.out.println(gcd(a, b));
 		System.out.println(lcm(a, b));
-		scan.close();;
+		scan.close();
 	}
 }
